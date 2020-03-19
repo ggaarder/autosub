@@ -2,6 +2,22 @@
 
 <escape><a href="https://travis-ci.org/BingLingGroup/autosub"><img src="https://travis-ci.org/BingLingGroup/autosub.svg?branch=alpha"></img></a> <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FBingLingGroup%2Fautosub"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FBingLingGroup%2Fautosub.svg?type=shield"></img></a></escape>
 
+懒人快速用法：首先下载[Windows懒人包](https://github.com/BingLingGroup/autosub/releases)，注意自行优化下载速度。
+
+生成SRT字幕：
+```
+autosub -S es -i filename.mp3
+```
+这里的`-S es`是音频语言参数，我的文件是西班牙语所以是`es`。英文是`en`。使用`autosub -lsc`（`--list-translation-codes`）查看所有支持的语言。
+
+字幕翻译：
+autosub并不自带免费google翻译API key，所以需要正常使用翻译功能，你可以考虑以下方法：
+- 使用srt翻译工具，如字幕编辑软件[Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit/releases)自带谷歌翻译机翻功能
+- 使用在google上搜索可以白嫖的google翻译API key，用-K选项输入给autosub进行自动翻译
+- 其他提供了免费 翻译API key的修改版autosub(免责声明，本文作者未尝试其有效性)：[iWangJiaxiang/autosub](https://github.com/iWangJiaxiang/autosub/tree/master)
+- 将视频上传至youtube，使用youtube-dl获取自动翻译字幕
+- 付费使用google翻译API key
+
 **给一般使用人士的建议：如果你的视频内容不敏感，直接把视频传到youtube然后获取自动字幕比用这个更方便，还自带翻译。**
 
 [English](../README.md)
