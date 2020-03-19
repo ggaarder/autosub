@@ -12,7 +12,7 @@ autosub -S es -i filename.mp3
 
 字幕翻译：
 autosub并不自带免费google翻译API key，所以需要正常使用翻译功能，你可以考虑以下方法：
-- 使用srt翻译工具，如字幕编辑软件subedit自带谷歌翻译机翻功能
+- 使用srt翻译工具，如字幕编辑软件[Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit/releases)自带谷歌翻译机翻功能
 - 使用在google上搜索可以白嫖的google翻译API key，用-K选项输入给autosub进行自动翻译
 - 其他提供了免费 翻译API key的修改版autosub(免责声明，本文作者未尝试其有效性)：[iWangJiaxiang/autosub](https://github.com/iWangJiaxiang/autosub/tree/master)
 - 关于辅助类字幕自动翻译校对工具，可以考虑issue 31教程Translate your Subtitles那部分提到的Subtitle Edit
