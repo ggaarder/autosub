@@ -15,6 +15,8 @@ autosub -S es -i filename.mp3
 
 **比用这个简单的方法：也可以传到youtube上，然后用youtube-dl或者you-get之类的东西下载自动字幕**，不过不支持中文。目前支持英语、荷兰语、法语、德语、意大利语、日语、韩语、葡萄牙语、俄语和西班牙语
 
+----------------------------
+
 [简体中文](docs/README.zh-Hans.md)
 
 This repo is not the same as [the original autosub repo](https://github.com/agermanidis/autosub).
