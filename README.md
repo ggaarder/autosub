@@ -2,6 +2,8 @@
 
 <escape><a href="https://travis-ci.org/BingLingGroup/autosub"><img src="https://travis-ci.org/BingLingGroup/autosub.svg?branch=alpha"></img></a> <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FBingLingGroup%2Fautosub"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FBingLingGroup%2Fautosub.svg?type=shield"></img></a></escape>
 
+**建议一般用户直接传到youtube上，然后用youtube-dl或者you-get之类的东西下载自动字幕，比用这个方便**
+
 懒人快速用法：首先下载[Windows懒人包](https://github.com/BingLingGroup/autosub/releases)，注意自行优化下载速度。
 
 生成SRT字幕：
@@ -12,8 +14,6 @@ autosub -S es -i filename.mp3
 
 字幕翻译：
 （我没有试用这个功能，我用的是字幕编辑软件[Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit/releases)自带的谷歌翻译机翻功能，这个应该也是用的谷歌机翻。）
-
-**比用这个简单的方法：也可以传到youtube上，然后用youtube-dl或者you-get之类的东西下载自动字幕**，不过不支持中文。目前支持英语、荷兰语、法语、德语、意大利语、日语、韩语、葡萄牙语、俄语和西班牙语
 
 ----------------------------
 
